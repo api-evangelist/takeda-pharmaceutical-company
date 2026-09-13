@@ -1,0 +1,68 @@
+generated: '2026-09-13'
+method: probed
+source: >-
+  Live probe of the RFC 8615 well-known paths on every host this record knows.
+  Takeda publishes no API baseURL and no OpenAPI servers[] host, so the host set
+  is the registrable domain, www, and the three brand/careers hosts the corporate
+  site links to.
+note: >-
+  Every named well-known path returned 404 on takeda.com and www.takeda.com. The
+  200 responses recorded on jobs.takeda.com, takedaclinicaltrials.com and
+  takedaoncology.com are single-page-app catch-alls — every path on those hosts
+  returns the same HTML document shell (verified against /.well-known/agent-card.json,
+  /llms.txt and /.well-known/security.txt, which all return byte-identical HTML) —
+  so they are recorded as misses, not documents. No WellKnown and no SecurityTxt
+  pointer is emitted: this file records an absence.
+hosts:
+- host: www.takeda.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/openid-configuration
+    status: 404
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+  - path: /.well-known/ai-plugin.json
+    status: 404
+  - path: /.well-known/agent-card.json
+    status: 404
+  - path: /.well-known/agent.json
+    status: 404
+- host: takeda.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+  - path: /.well-known/api-catalog
+    status: 404
+- host: jobs.takeda.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    result: html-shell
+    note: SPA catch-all; body is the careers site HTML document, not a document at this path.
+  - path: /.well-known/agent-card.json
+    status: 200
+    result: html-shell
+    note: SPA catch-all; body is the careers site HTML document, not an AgentCard.
+- host: takedaclinicaltrials.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    result: html-shell
+    note: Next.js catch-all; body is the clinical trials site HTML document.
+  - path: /.well-known/agent-card.json
+    status: 200
+    result: html-shell
+    note: Next.js catch-all; body is the clinical trials site HTML document.
+- host: takedaoncology.com
+  documents:
+  - path: /.well-known/security.txt
+    status: 200
+    result: html-shell
+    note: Next.js catch-all; body is the oncology brand site HTML document.
+  - path: /.well-known/agent-card.json
+    status: 200
+    result: html-shell
+    note: Next.js catch-all; body is the oncology brand site HTML document.

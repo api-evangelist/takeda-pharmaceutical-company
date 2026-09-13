@@ -1,20 +1,82 @@
 aid: takeda-pharmaceutical-company
 name: Takeda Pharmaceutical Company
-description: 'Takeda Pharmaceutical Company is a company surfaced via the API Evangelist harvest backlog
-  (source: absent-parent) and added to the network as a stub for full-pipeline profiling.'
+description: 'Takeda Pharmaceutical Company Limited is a Japanese multinational biopharmaceutical company
+  headquartered in Tokyo, founded in 1781 and listed on the Tokyo Stock Exchange (4502) and the New York
+  Stock Exchange (TAK). It is the largest pharmaceutical company in Japan and Asia, and operates globally
+  across oncology, rare genetic and hematologic diseases, neuroscience, gastroenterology, plasma-derived
+  therapies and vaccines, a portfolio substantially expanded by its 2019 acquisition of Shire. Takeda
+  is a software consumer rather than a software vendor: it runs large internal API and data platforms,
+  but publishes no public developer program, API reference or machine-readable contract. The one machine-readable
+  document it does serve to automated clients is an llms.txt at its corporate root, which indexes its
+  verified country websites and states an explicit LLM usage and attribution policy.'
 url: https://raw.githubusercontent.com/api-evangelist/takeda-pharmaceutical-company/refs/heads/main/apis.yml
 x-type: company
+position: Consuming
 x-source: harvest:absent-parent
-x-tier: stub
-x-tier-reason: harvest
 specificationVersion: '0.20'
 created: '2026-09-13'
 modified: '2026-09-13'
 tags:
 - Company
+- Pharmaceuticals
+- Healthcare
+- Life Sciences
+- Biotechnology
+- Clinical Trials
+- Japan
 apis: []
+common:
+- type: DomainSecurity
+  url: security/takeda-pharmaceutical-company-domain-security.yml
+- type: Website
+  url: https://www.takeda.com/
+- type: PrivacyPolicy
+  url: https://www.takeda.com/privacy-notice/
+- type: TermsOfService
+  url: https://www.takeda.com/terms-and-conditions/
+- type: Support
+  url: https://www.takeda.com/contact-us/
+- type: Blog
+  url: https://www.takeda.com/newsroom/press-releases/
+- type: LLMsTxt
+  url: llms/takeda-pharmaceutical-company-llms.txt
+- type: Conformance
+  url: conformance/takeda-pharmaceutical-company-conformance.yml
+- type: Packages
+  url: packages/takeda-pharmaceutical-company-packages.yml
+- type: Plans
+  url: plans/takeda-pharmaceutical-company-plans-pricing.yml
+- type: RateLimits
+  url: rate-limits/takeda-pharmaceutical-company-rate-limits.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-09-13'
+  status: minimal
+  artifacts_added: 8
+  pass: local-v3
+x-coverage:
+  state: none
+  reason: no-developer-program
+  detail: 'Takeda runs large internal API platforms - AWS AppSync GraphQL for its data scientists, a PingFederate
+    workforce IdP that robots.txt disallows - but exposes none of it outward: developer.takeda.com and
+    api.takeda.com do not resolve at all, the corporate site 404s every well-known path, and the only
+    supplier integration Takeda names is a third-party Apex Analytix payments portal, so there is no developer
+    programme to gate or to read.'
+  evidence:
+  - url: https://developer.takeda.com/
+    status: 0
+  - url: https://api.takeda.com/
+    status: 0
+  - url: https://www.takeda.com/openapi.json
+    status: 404
+  - url: https://www.takeda.com/.well-known/api-catalog
+    status: 404
+  - url: https://www.takeda.com/.well-known/security.txt
+    status: 404
+  - url: https://www.takeda.com/llms.txt
+    status: 200
+  checked: '2026-09-13'

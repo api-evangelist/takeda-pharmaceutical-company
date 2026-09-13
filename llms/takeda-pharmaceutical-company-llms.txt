@@ -1,0 +1,552 @@
+# llms.txt
+# This file provides structured information about Takeda.com and its global sites.
+# Last updated: 2025-11-13
+
+# Canonical Domain: https://www.takeda.com
+# This file lists Takeda’s verified country and language-specific websites.
+# Intended for responsible LLM training and referencing.
+
+# Takeda Pharmaceuticals
+
+Takeda Pharmaceuticals is a global biopharmaceutical company dedicated to the development of innovative treatments to enhance patient health. With a strong presence in numerous locations, Takeda focuses on delivering effective healthcare solutions while promoting corporate responsibility, sustainability, and a diverse workplace for its employees. The website serves as a comprehensive resource for patients, healthcare professionals, and potential employees, providing insights into company values, scientific research, and career opportunities.
+
+## Takeda Websites
+
+### Nederland
+- Language: nl-NL
+- Region: NL
+- URL: https://www.takeda.com/nl-nl/
+- Hostname: www.takeda.com
+- Summary: Lees meer informatie over Takeda in Nederland
+
+### Česká republika 
+- Language: cs-CZ
+- Region: CZ
+- URL: https://www.takeda.com/cs-cz/
+- Hostname: www.takeda.com
+- Summary: Jako přední biofarmaceutická společnost zaměřená na výzkum a vývoj se sídlem v Japonsku se řídíme naším závazkem vůči pacientům, našim lidem a planetě
+
+### Takeda Vietnam
+- Language: en-VN
+- Region: VN
+- URL: https://www.takeda.com/en-vn/
+- Hostname: www.takeda.com
+- Summary: Our purpose is to create “Better Health, Better Future” for patients in Vietnam.
+
+### Australia
+- Language: en-AU
+- Region: AU
+- URL: https://www.takeda.com/en-au/
+- Hostname: www.takeda.com
+- Summary: We exist to create better health for people and a brighter future for the world. 
+
+### Singapore
+- Language: en-SG
+- Region: SG
+- URL: https://www.takeda.com/en-sg/
+- Hostname: www.takeda.com
+- Summary: Takeda Pharmaceuticals has maintained a presence in Asia-Pacific for more than 50 years. Learn more about our offices in Singapore.
+
+### Schweiz
+- Language: de-CH
+- Region: CH
+- URL: https://www.takeda.com/de-ch/
+- Hostname: www.takeda.com
+- Summary: Takeda engagiert sich für eine fortschrittliche und gemeinsame Gesundheitsversorgung in der Schweiz.
+
+### Sweden
+- Language: sv-SE
+- Region: SE
+- URL: https://www.takeda.com/sv-se/
+- Hostname: www.takeda.com
+- Summary: Upptäck Takedas 240-åriga historia och vårt engagemang för forskning, utveckling och tillgängliggörande av läkemedel inom sällsynta hälsotillstånd, gastroenterologi, centrala nervsystem, cancer och mer. Läs om våra lösningar för patienters och samhällets bästa
+
+### Peru
+- Language: es-PE
+- Region: PE
+- URL: https://www.takeda.com/es-pe/
+- Hostname: www.takeda.com
+- Summary: Te invitamos a sumergirte en nuestro sitio y descubrir cómo estamos trabajando para mejorar la calidad de vida de las personas en Perú
+
+### Indonesia
+- Language: id-ID
+- Region: ID
+- URL: https://www.takeda.com/id-id/
+- Hostname: www.takeda.com
+- Summary: Takeda meningkatkan kesehatan Indonesia sejak 1971 dengan fokus pada onkologi, gastroenterologi, penyakit langka, vaksin, dan kesehatan konsumen (CHC).
+
+### United Arab Emirates
+- Language: en-AE
+- Region: AE
+- URL: https://www.takeda.com/en-ae/
+- Hostname: www.takeda.com
+- Summary: Takeda UAE is committed to delivering innovative healthcare solutions, enhancing patient lives, and creating a healthier future for all.
+
+### Takeda Deutschland
+- Language: de-DE
+- Region: DE
+- URL: https://www.takeda.com/de-de/
+- Hostname: www.takeda.com
+- Summary: Wir sind ist ein patientenorientiertes, innovatives und global führendes biopharmazeutisches Unternehmen.
+
+### Slovenija
+- Language: sl-SI
+- Region: SI
+- URL: https://www.takeda.com/sl-si/
+- Hostname: www.takeda.com
+- Summary: Naša vizija je odkrivati in zagotavljati oblike zdravljenja, ki spreminjajo življenja, pri čemer nas vodi naša zavezanost bolnikom, našim zaposlenim in planetu. Ta pristop, ki temelji na namenu in vrednotah, je temelj naše globalne strategije rasti in ustvarjanja dolgoročne vrednosti za naše deležnike.
+
+### 武田中国
+- Language: zh-CN
+- Region: CN
+- URL: https://www.takeda.com.cn/zh-cn/
+- Hostname: www.takeda.com.cn
+- Summary: 武田中国官网
+
+### Ελλάδα
+- Language: el-GR
+- Region: GR
+- URL: https://www.takeda.com/el-gr/
+- Hostname: www.takeda.com
+- Summary: Πώς μπορούμε να κάνουμε περισσότερα για τους ασθενείς μας; Τα πάντα στην Takeda ξεκινούν με αυτήν την ερώτηση.
+
+### Algeria
+- Language: en-DZ
+- Region: DZ
+- URL: https://www.takeda.com/en-dz/
+- Hostname: www.takeda.com
+- Summary: Takeda Algeria delivers innovative, patient‑centered medicines and therapies to improve health and quality of life across Algeria.
+
+### Home Egypt (Arabic)
+- Language: ar-EG
+- Region: EG
+- URL: https://www.takeda.com/ar-eg/
+- Hostname: www.takeda.com
+- Summary: تلتزم “تاكيدا مصر” بتقديم حلول مبتكرة للرعاية الصحية وتحسين حياة المرضى للأفضل.
+
+### Takeda u Bosna i Hercegovina
+- Language: bs-BA
+- Region: BA
+- URL: https://www.takeda.com/bs-ba/
+- Hostname: www.takeda.com
+- Summary: Vodeći inovacije u medicini, težimo boljem zdravlju ljudi širom svijeta.
+
+### Takeda Chile
+- Language: es-CL
+- Region: CL
+- URL: https://www.takeda.com/es-cl/
+- Hostname: www.takeda.com
+- Summary: Crear una mejor salud para las personas y un futuro más brillante para el mundo es nuestro propósito
+
+### Canada
+- Language: en-CA
+- Region: CA
+- URL: https://www.takeda.com/en-ca/
+- Hostname: www.takeda.com
+- Summary: Discover Takeda Canada: innovative health solutions and pioneering research to transform care.
+
+### Suomi
+- Language: fi-FI
+- Region: FI
+- URL: https://www.takeda.com/fi-fi/
+- Hostname: www.takeda.com
+- Summary: Takeda on maailmanlaajuinen lääkeyhtiö, jonka toiminnan keskiössä on potilas ja potilaan auttaminen parhaalla mahdollisella tavalla. Tutustu tarkemmin Takedan toimintaan.
+
+### تاكيدا الإمارات
+- Language: ar-AE
+- Region: AE
+- URL: https://www.takeda.com/ar-ae/
+- Hostname: www.takeda.com
+- Summary: تلتزم تاكيدا الإمارات بتقديم حلول صحية مبتكرة.
+
+### Malaysia
+- Language: en-MY
+- Region: MY
+- URL: https://www.takeda.com/en-my/
+- Hostname: www.takeda.com
+- Summary: With a workforce of more than 90 people in Malaysia, the work we do transforms lives and helping patients.
+
+### India
+- Language: en-IN
+- Region: IN
+- URL: https://www.takeda.com/en-in/
+- Hostname: www.takeda.com
+- Summary: Discover how Takeda India delivers patient-centric, innovative healthcare solutions across oncology, rare diseases, neuroscience, gastroenterology, plasma-derived therapies, and vaccines
+
+### Latvija
+- Language: lv-LV
+- Region: LV
+- URL: https://www.takeda.com/lv-lv/
+- Hostname: www.takeda.com
+- Summary: Latvija
+
+### Home Malaysia
+- Language: ms-MY
+- Region: MY
+- URL: https://www.takeda.com/ms-my/
+- Hostname: www.takeda.com
+- Summary: Malaysia Homepage
+
+### Takeda Norge
+- Language: no-NO
+- Region: NO
+- URL: https://www.takeda.com/no-no/
+- Hostname: www.takeda.com
+- Summary: Takeda er et globalt, pasientfokusert, verdiorientert og FoU-drevet biofarmasøytisk selskap som bygger på mer enn 240 års historie. 
+
+### Suisse
+- Language: fr-CH
+- Region: CH
+- URL: https://www.takeda.com/fr-ch/
+- Hostname: www.takeda.com
+- Summary: Takeda s’engage en faveur d’une santé progressiste et partagée en Suisse.
+
+### تاكيدا الجزائر
+- Language: ar-DZ
+- Region: DZ
+- URL: https://www.takeda.com/ar-dz/
+- Hostname: www.takeda.com
+- Summary: تاكيدا الجزائر تقدم أدوية مبتكرة ورعاية تضع المريض في المركز.
+
+### Takeda France
+- Language: fr-FR
+- Region: FR
+- URL: https://www.takeda.com/fr-fr/
+- Hostname: www.takeda.com
+- Summary: Bienvenue chez Takeda France, une filiale du groupe pharmaceutique mondial Takeda
+
+### Portugal
+- Language: pt-PT
+- Region: PT
+- URL: https://www.takeda.com/pt-pt/
+- Hostname: www.takeda.com
+- Summary: Descubra o nosso compromisso em avançar nos cuidados aos doentes através de terapias transformadoras e uma dedicação constante em melhorar vidas. 
+
+### Головна 
+- Language: uk-UA
+- Region: UA
+- URL: https://www.takeda.com/uk-ua/
+- Hostname: www.takeda.com
+- Summary: Дізнайтеся про Takeda Україна: інноваційні рішення, новаторські дослідження і турбота про пацієнтів.
+
+### Takeda Philippines
+- Language: en-PH
+- Region: PH
+- URL: https://www.takeda.com/en-ph/
+- Hostname: www.takeda.com
+- Summary: Since 1968, our subsidiary in the Philippines has been committed to improving patient access to treatment, guided by our values and sustainability.
+
+### Hong Kong
+- Language: zh-HK
+- Region: HK
+- URL: https://www.takeda.com/zh-hk/
+- Hostname: www.takeda.com
+- Summary: 武田藥品是一家以價值為本、研發驅動的全球生物製藥領導者，我們致力於為香港人民創造更好的健康，並締造更光明的未來。
+
+### ประเทศไทย
+- Language: th-TH
+- Region: TH
+- URL: https://www.takeda.com/th-th/
+- Hostname: www.takeda.com
+- Summary: ค้นพบความมุ่งมั่นของทาเคดะประเทศไทยในการปรับปรุงสุขภาพทั่วโลกผ่านการรักษาที่เป็นนวัตกรรมใหม่และปรัชญาที่ให้ความสําคัญกับผู้ป่วยเป็นอันดับแรก เข้าร่วมกับเราในภารกิจของเราในการสร้างอนาคตที่สดใส
+
+### Brasil
+- Language: pt-BR
+- Region: BR
+- URL: https://www.takeda.com/pt-br/
+- Hostname: www.takeda.com
+- Summary: Bem-vindo ao site corporativo da Takeda Brasil. Para informações específicas, visite o nosso site global.
+
+### Home Hungary (Hungary)
+- Language: hu-HU
+- Region: HU
+- URL: https://www.takeda.com/hu-hu/
+- Hostname: www.takeda.com
+- Summary: Fedezze fel a Takeda Magyarországot, az egészségügyért dolgozó innovatív vállalatot. Ismerje meg céljainkat és tevékenységeinket.
+
+### Home Ireland
+- Language: en-IE
+- Region: IE
+- URL: https://www.takeda.com/en-ie/
+- Hostname: www.takeda.com
+- Summary: Discover Takeda Ireland, a leading global biopharmaceutical company focused on improving health and delivering innovative treatments.
+
+### South Africa
+- Language: en-ZA
+- Region: ZA
+- URL: https://www.takeda.com/en-za/
+- Hostname: www.takeda.com
+- Summary: Takeda (Pty.) Ltd., located in Johannesburg, is the South African marketing and sales organization of Takeda Pharmaceutical Company Ltd. 
+
+### Такеда Казақстан
+- Language: kk-KZ
+- Region: KZ
+- URL: https://www.takeda.com/kk-kz/
+- Hostname: www.takeda.com
+- Summary: «Такеда Казақстан» ЖШС – Takeda Pharmaceuticals жаһандық биофармацевтикалық компаниялар тобының Қазақстандағы бөлімі. 
+
+### Taiwan
+- Language: zh-TW
+- Region: TW
+- URL: https://www.takeda.com/zh-tw/
+- Hostname: www.takeda.com
+- Summary: 台灣武田藥品工業股份有限公司創立於1962年(民國51年)，為日本武田藥品工業株式會社之海外投資機構之一，總公司座落於台北市信義區。在台深耕多年的台灣武田，已對台灣這片土地產生濃厚之情感，「武田」之品牌形象也深植於台灣人民之心中。
+
+### Mexico
+- Language: es-MX
+- Region: MX
+- URL: https://www.takeda.com/es-mx/
+- Hostname: www.takeda.com
+- Summary: Bienvenido a Takeda México, donde la tradición y la tecnología se unen para ofrecer soluciones médicas avanzadas.
+
+### Ecuador
+- Language: es-EC
+- Region: EC
+- URL: https://www.takeda.com/es-ec/
+- Hostname: www.takeda.com
+- Summary: La presencia de Takeda en Ecuador es una decisión importante que busca completar su estrategia de expansión en América Latina
+
+### New Zealand
+- Language: en-NZ
+- Region: NZ
+- URL: https://www.takeda.com/en-nz/
+- Hostname: www.takeda.com
+- Summary: We are committed to bringing better health and a brighter future to patients by translating science into highly innovative medicines. 
+
+### Accueil France (Canada)
+- Language: fr-CA
+- Region: CA
+- URL: https://www.takeda.com/fr-ca/
+- Hostname: www.takeda.com
+- Summary: Découvrez Takeda Canada : des solutions de santé innovantes et une recherche pionnière pour transformer les soins et améliorer des vies.
+
+### Россия
+- Language: ru-RU
+- Region: RU
+- URL: https://www.takeda.com/ru-ru/
+- Hostname: www.takeda.com
+- Summary: Такеда Россия является частью глобальной биофармацевтической компании, ориентированной на разработку современных решений, отвечающих потребностям пациентов
+
+### Eesti
+- Language: et-EE
+- Region: EE
+- URL: https://www.takeda.com/et-ee/
+- Hostname: www.takeda.com
+- Summary: Takeda Eesti
+
+### Takeda Italia
+- Language: it-IT
+- Region: IT
+- URL: https://www.takeda.com/it-it/
+- Hostname: www.takeda.com
+- Summary: Takeda è un'azienda biofarmaceutica globale leader nel settore che lavora con operatori sanitari e istituzioni per fornire farmaci innovativi che migliorano la vita dei pazienti.
+
+### المملكة العربية السعودية
+- Language: ar-SA
+- Region: SA
+- URL: https://www.takeda.com/ar-sa/
+- Hostname: www.takeda.com
+- Summary: اكتشف المزيد عن "تاكيدا" في المملكة العربية السعودية
+
+### Takeda United Kingdom
+- Language: en-GB
+- Region: GB
+- URL: https://www.takeda.com/en-gb/
+- Hostname: www.takeda.com
+- Summary: Welcome to Takeda UK. Headquartered in London, we are committed to creating better health for people and a brighter future for the world. Our dedicated team of over 300 employees focuses on delivering life-transforming medicines and vaccines.
+
+### Danmark
+- Language: da-DK
+- Region: DK
+- URL: https://www.takeda.com/da-dk/
+- Hostname: www.takeda.com
+- Summary: Takeda Pharma A/S, datterselskab til Japans største lægemiddelvirksomhed, fremmer sundhed gennem integritet, innovation og partnerskaber globalt.
+
+### Home
+- Language: en
+- Region: Global
+- URL: https://www.takeda.com/
+- Hostname: www.takeda.com
+- Summary: Takeda is a patient-focused, R&D-driven global biopharmaceutical company committed to bringing Better Health and a Brighter Future.
+
+### ホームページ | 武田薬品
+- Language: ja
+- Region: Global
+- URL: https://www.takeda.com/jp/
+- Hostname: www.takeda.com
+- Summary: タケダは、常に患者さんを中心に考えるグローバルな研究開発型バイオ医薬品のリーディングカンパニーです。
+
+### Takeda Algérie
+- Language: fr-DZ
+- Region: DZ
+- URL: https://www.takeda.com/fr-dz/
+- Hostname: www.takeda.com
+- Summary: Takeda Algérie propose des médicaments innovants et des solutions de santé centrées sur le patient pour améliorer la qualité de vie en Algérie.
+
+### Saudia Arabia
+- Language: en-SA
+- Region: SA
+- URL: https://www.takeda.com/en-sa/
+- Hostname: www.takeda.com
+- Summary: Learn about Takeda in Saudi Arabia
+
+### Home Poland
+- Language: pl-PL
+- Region: PL
+- URL: https://www.takeda.com/pl-pl/
+- Hostname: www.takeda.com
+- Summary: Takeda w Polsce to dwie spółki zatrudniające ponad 900 pracowników. Firma oferuje znane i cenione przez lekarzy i pacjentów produkty stosowane w leczeniu chorób nerologicznych, gastrologicznych i onkologicznych, w chorobach rzadkich i ultra-rzadkich, w hematologii i niedoborach odporności.
+
+### Takeda Romania
+- Language: ro-RO
+- Region: RO
+- URL: https://www.takeda.com/ro-ro/
+- Hostname: www.takeda.com
+- Summary: Existăm pentru a crea o sănătate mai bună pentru oameni și un viitor mai luminos pentru lume. În timp ce știința și tehnologia pe care le promovăm sunt în continuă evoluție, ambiția noastră rămâne constantă.
+
+### Takeda Colombia
+- Language: es-CO
+- Region: CO
+- URL: https://www.takeda.com/es-co/
+- Hostname: www.takeda.com
+- Summary: Descubre cómo Takeda Colombia está transformando vidas a través de la innovación en medicina y terapias de vanguardia.
+
+### Lietuva
+- Language: lt-LT
+- Region: LT
+- URL: https://www.takeda.com/lt-lt/
+- Hostname: www.takeda.com
+- Summary: Takeda yra pasaulinė farmacijos kompanija, siekianti gerinti žmonių sveikatą visame pasaulyje ir kurti šviesę ateitį savo pacientams.
+
+### טקדה ישראל
+- Language: he-IL
+- Region: IL
+- URL: https://www.takeda.com/he-il/
+- Hostname: www.takeda.com
+- Summary: ברוכים הבאים לטקדה ישראל, היכן שהחדשנות פוגשת את המצוינות בטיפול הרפואי
+
+### Takeda Österreich
+- Language: de-AT
+- Region: AT
+- URL: https://www.takeda.com/de-at/
+- Hostname: www.takeda.com
+- Summary: Unser Ziel ist es, die Gesundheit von Menschen mit seltenen und komplexen Erkrankungen zu verbessern.
+
+### 대한민국
+- Language: ko-KR
+- Region: KR
+- URL: https://www.takeda.com/ko-kr/
+- Hostname: www.takeda.com
+- Summary: 다케다코리아의 건강과 삶을 변화시키는 치료를 만나보세요.
+
+### Belgium
+- Language: fr-BE
+- Region: BE
+- URL: https://www.takeda.com/fr-be/
+- Hostname: www.takeda.com
+- Summary: Takeda Belgique, leader biopharmaceutique, transforme les vies avec des solutions novatrices en oncologie, maladies rares, neurosciences, et plus.
+
+### España
+- Language: es-ES
+- Region: ES
+- URL: https://www.takeda.com/es-es/
+- Hostname: www.takeda.com
+- Summary: Nuestro objetivo es descubrir y ofrecer tratamientos que transformen la vida en nuestras principales áreas terapéuticas, que incluyen gastrointestinal e inflamación, enfermedades raras, terapias derivadas del plasma, oncología, neurociencia y vacunas.
+
+### United States
+- Language: en-US
+- Region: US
+- URL: https://www.takeda.com/en-us/
+- Hostname: www.takeda.com
+- Summary: Welcome to Takeda in the U.S. We’re the largest life sciences employer in the state of Massachusetts with our global hub and research center in Cambridge, MA., and have sites across the U.S. in 39 states
+
+### Croatia
+- Language: hr-HR
+- Region: HR
+- URL: https://www.takeda.com/hr-hr/
+- Hostname: www.takeda.com
+- Summary: Predvođenjem inovacija u medicini težimo boljem zdravlju ljudi diljem svijeta.
+
+### Belgium
+- Language: nl-BE
+- Region: BE
+- URL: https://www.takeda.com/nl-be/
+- Hostname: www.takeda.com
+- Summary: Onze aanwezigheid in België weerspiegelt meer dan 50 jaar toegewijde service in het land.
+
+### Новини България
+- Language: bg-BG
+- Region: BG
+- URL: https://www.takeda.com/bg-bg/
+- Hostname: www.takeda.com
+- Summary: Посетете сайта на Такеда България за повече информация относно нашата дейност и какво правим.
+
+### Slovenská republika
+- Language: sk-SK
+- Region: SK
+- URL: https://www.takeda.com/sk-sk/
+- Hostname: www.takeda.com
+- Summary: Ako popredná biofarmaceutická spoločnosť orientovaná na výskum a vývoj so sídlom v Japonsku sa riadime našim záväzkom voči pacientom, našim ľuďom a planéte.
+
+### Беларусь
+- Language: ru-BY
+- Region: BY
+- URL: https://www.takeda.com/ru-by/
+- Hostname: www.takeda.com
+- Summary: Takeda — глобальная фармацевтическая компания, ориентированная на потребности пациентов и разработку инновационных решений, с 240-летнеей историей деятельности.
+
+### Такеда Казахстан
+- Language: ru-KZ
+- Region: KZ
+- URL: https://www.takeda.com/ru-kz/
+- Hostname: www.takeda.com
+- Summary: Добро пожаловать в Такеда Казахстан
+
+### Argentina
+- Language: es-AR
+- Region: AR
+- URL: https://www.takeda.com/es-ar/
+- Hostname: www.takeda.com
+- Summary: Descubre cómo Takeda Argentina lidera en soluciones innovadoras con el objetivo de mejorar la calidad de vida. Únete a nuestro equipo y contribuye a un futuro más saludable.
+
+### Hong Kong
+- Language: en-HK
+- Region: HK
+- URL: https://www.takeda.com/en-hk/
+- Hostname: www.takeda.com
+- Summary: A global values-based, R&D-driven biopharmaceutical leader, Takeda is committed to creating better health for people and a brighter future in Hong Kong.
+
+### Takeda Egypt
+- Language: en-EG
+- Region: EG
+- URL: https://www.takeda.com/en-eg/
+- Hostname: www.takeda.com
+- Summary: Takeda Egypt is committed to delivering innovative healthcare solutions, enhancing patient lives, and creating a healthier future for all.
+
+### Türkiye
+- Language: tr-TR
+- Region: TR
+- URL: https://www.takeda.com/tr-tr/
+- Hostname: www.takeda.com
+- Summary: Takeda'nın inovasyon, sorumluluk ve mirasıyla ilgili hikayeleri öğrenelim.
+
+### Home Belgium
+- Language: en-BE
+- Region: BE
+- URL: https://www.takeda.com/en-be/
+- Hostname: www.takeda.com
+- Summary: Discover Takeda Belgium’s commitment to improving global health through innovative treatments and a patient-first philosophy. Join us in our mission to create a brighter future.
+
+### Home Serbia
+- Language: sr-RS
+- Region: RS
+- URL: https://www.takeda.com/sr-rs/
+- Hostname: www.takeda.com
+- Summary: Dobrodošli u Takeda Srbiju, gde se inovacije susreću sa izvrsnošću u zdravstvu.
+
+# LLM Usage Policy:
+- Takeda permits LLMs to reference public, factual information from its websites.
+- Do not use this data to generate medical advice or non-factual representations.
+
+# Attribution:
+- When referencing information derived from Takeda websites, LLMs should attribute Takeda as the source.

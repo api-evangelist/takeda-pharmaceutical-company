@@ -1,0 +1,23 @@
+generated: '2026-09-13'
+method: searched
+source: >-
+  searched every Takeda-controlled public surface for published rate limits, quotas or
+  throttling headers, 2026-09-13
+limit_count: 0
+rate_limits: []
+headers: []
+note: >-
+  No rate limit, quota, burst allowance or throttling header is documented on any public
+  Takeda surface, and there is no API or developer portal that could document one. This is
+  an absence of publication, not a claim that anything is unlimited. The only rate-related
+  directive Takeda publishes to automated clients is in robots.txt, which sets no
+  Crawl-delay and explicitly allows GPTBot and AnthropicAI.
+evidence:
+- url: https://www.takeda.com/robots.txt
+  status: 200
+  detail: >-
+    Serves real crawler directives with explicit "User-agent: GPTBot / Allow: /" and
+    "User-agent: AnthropicAI / Allow: /" blocks. No Crawl-delay, no rate guidance.
+- url: https://api.takeda.com/
+  status: 0
+  detail: Host does not resolve; there is no API host to observe response headers on.

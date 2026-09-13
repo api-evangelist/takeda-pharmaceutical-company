@@ -1,0 +1,64 @@
+generated: '2026-09-13'
+method: probed
+source: >-
+  https://www.takeda.com/llms.txt ; https://www.takeda.com/robots.txt ;
+  https://www.takeda.com/.well-known/security.txt ; probed 2026-09-13
+note: >-
+  Takeda publishes no machine-readable API contract, so no entry below is derived from a
+  spec. Each entry records only what a live probe of a Takeda-controlled host actually
+  returned, with the URL and status that established it. Standards that could not be
+  evidenced from a Takeda-published surface are recorded conforms: false with the reason,
+  never omitted and never assumed.
+conformance:
+- id: llms-txt
+  name: llms.txt (AI/LLM site-context convention)
+  conforms: true
+  evidence:
+    url: https://www.takeda.com/llms.txt
+    status: 200
+    detail: >-
+      A real 21,894-byte text/plain document, self-dated 2025-11-13, declaring
+      https://www.takeda.com as the canonical domain, indexing Takeda's verified
+      country/language sites, and closing with an explicit "LLM Usage Policy" and
+      "Attribution" block. This is the only machine-readable document Takeda serves to
+      automated clients.
+- id: ai-crawler-directives
+  name: robots.txt explicit AI-agent directives
+  conforms: true
+  evidence:
+    url: https://www.takeda.com/robots.txt
+    status: 200
+    detail: >-
+      Beyond the generic User-agent:* block, Takeda names two AI crawlers and admits them
+      explicitly — "User-agent: GPTBot / Allow: /" and "User-agent: AnthropicAI / Allow: /".
+      A deliberate, published agent-access posture rather than a default.
+- id: rfc9116
+  name: RFC 9116 security.txt
+  conforms: false
+  evidence:
+    url: https://www.takeda.com/.well-known/security.txt
+    status: 404
+    detail: >-
+      404 on both takeda.com and www.takeda.com. No vulnerability-disclosure contact is
+      published at the standard location, and no trust centre or bug-bounty programme was
+      found (probe-security-programs.py returned vdp=none trust=none).
+- id: oauth2
+  name: OAuth 2.0 / OpenID Connect discovery
+  conforms: false
+  evidence:
+    url: https://www.takeda.com/.well-known/openid-configuration
+    status: 404
+    detail: >-
+      404, as is /.well-known/oauth-authorization-server. Takeda operates a PingFederate
+      deployment (robots.txt disallows /pingfederate/), but it is an internal workforce
+      identity provider and publishes no anonymous discovery document.
+domain_standards:
+  note: >-
+    REWARD-ONLY, and nothing is claimed here. The domain standards that would signal
+    conformance in Takeda's markets — CDISC SDTM/ODM for clinical study data, HL7 FHIR for
+    health data exchange, ISO IDMP for medicinal product identification, and GS1/EPCIS for
+    DSCSA serialisation — can only be evidenced from a contract that declares them, and
+    Takeda publishes no contract. Takeda's patient-level clinical data is shared through
+    Vivli, a third-party platform Takeda helped found; any standard conformance there
+    belongs to Vivli's contract, not Takeda's, and is deliberately not credited to Takeda.
+  declared: []

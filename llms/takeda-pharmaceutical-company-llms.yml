@@ -1,0 +1,59 @@
+generated: '2026-09-13'
+method: searched
+source: https://www.takeda.com/llms.txt
+note: >-
+  Takeda serves a real, first-party llms.txt from its corporate root. It is a
+  site-navigation map for crawlers, not an API-documentation llms.txt — it lists
+  Takeda's verified country and language websites and closes with an explicit LLM
+  usage and attribution policy. It names no endpoint, no authentication scheme and
+  no machine-readable contract, which is consistent with the rest of this profile:
+  Takeda publishes no developer program.
+documents:
+- url: https://www.takeda.com/llms.txt
+  status: 200
+  bytes: 21894
+  content_type: text/plain; charset=utf-8
+  file: takeda-pharmaceutical-company-llms.txt
+  self_reported_updated: '2025-11-13'
+  title: Takeda Pharmaceuticals
+  scope: >-
+    Canonical domain declaration (https://www.takeda.com) plus a per-country index of
+    Takeda's verified locale sites (language, region, URL, hostname, summary), followed
+    by an "LLM Usage Policy" and "Attribution" block. No API surface.
+  policy_statements:
+  - Takeda permits LLMs to reference public, factual information from its websites.
+  - Do not use this data to generate medical advice or non-factual representations.
+  - When referencing information derived from Takeda websites, LLMs should attribute Takeda as the source.
+probes:
+- url: https://takeda.com/llms.txt
+  status: 200
+  note: Same document as www.takeda.com (canonical host declared inside the file).
+- url: https://jobs.takeda.com/llms.txt
+  status: 200
+  note: Rejected — SPA catch-all returning the careers site HTML shell, not an llms.txt.
+- url: https://takedaclinicaltrials.com/llms.txt
+  status: 200
+  note: Rejected — Next.js catch-all returning the site HTML shell.
+- url: https://takedaoncology.com/llms.txt
+  status: 200
+  note: Rejected — Next.js catch-all returning the site HTML shell.
+- url: https://www.takedapharma.com/llms.txt
+  status: 200
+  note: >-
+    Rejected on OWNERSHIP, not shape. This is a genuine llms.txt, but it describes a
+    GoDaddy aftermarket parking page — the document's own body says the domain is
+    listed for sale. takedapharma.com is not a Takeda-controlled host.
+- url: https://www.entyvio.com/llms.txt
+  status: 404
+- url: https://www.takhzyro.com/llms.txt
+  status: 404
+- url: https://www.hyqvia.com/llms.txt
+  status: 404
+- url: https://clinicaltrials.takeda.com/llms.txt
+  status: 404
+- url: https://developer.takeda.com/llms.txt
+  status: 0
+  note: Host does not resolve.
+- url: https://api.takeda.com/llms.txt
+  status: 0
+  note: Host does not resolve.

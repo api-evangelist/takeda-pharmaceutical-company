@@ -1,0 +1,49 @@
+generated: '2026-09-13'
+method: searched
+source: >-
+  npm registry search (registry.npmjs.org/-/v1/search), pypi.org/pypi/<pkg>/json,
+  api.github.com org lookups, and Takeda's own corporate surface, probed 2026-09-13
+official_count: 0
+packages: []
+note: >-
+  Takeda Pharmaceutical Company publishes NO first-party client library on any public
+  registry. npm, PyPI, Maven Central, NuGet, pkg.go.dev, RubyGems, Packagist and
+  crates.io were searched for "takeda"; every hit is either unrelated (a Japanese
+  individual's JSONata CLI under @2017takeda, Next.js scaffolds, an unrelated
+  compression library) or fails the ownership test below. There is nothing to record a
+  version or published date against, which is why official_count is 0 rather than a
+  list with null versions.
+rejected:
+- name: takeda-components-lib-stackbit
+  registry: npm
+  url: https://www.npmjs.com/package/takeda-components-lib-stackbit
+  version: 1.0.34
+  published: '2021-12-29'
+  reason: >-
+    OWNERSHIP NOT ESTABLISHED (pipeline STEP 0c). Its description reads "Headless CMS
+    Takeda Oncology", so it is plausibly an agency's component library built for the
+    Takeda Oncology brand site, but the package declares no repository, no homepage and
+    no author, and its sole maintainer is an anonymous personal npm account
+    (peach_pie1953). Nothing about the package asserts Takeda authorship, and Takeda
+    publishes no SDK page that would corroborate it. Last touched 2022-05-19. Not saved.
+github_organizations:
+  note: >-
+    No Takeda GitHub organization carries publishable code. github.com/oneTakeda is a
+    real organization named "Takeda" with 0 public repositories; github.com/Takeda-Public
+    has a single .github profile repo; github.com/Takeda-Pharma and github.com/TakedaPlasma
+    have no substantive public code. No GitHubOrganization pointer is emitted, because
+    none of these can be confirmed as the company's official presence from Takeda's own
+    site — the corporate footer links no GitHub account at all.
+  probed:
+  - url: https://api.github.com/orgs/oneTakeda
+    status: 200
+    public_repos: 0
+  - url: https://api.github.com/orgs/Takeda-Public
+    status: 200
+    public_repos: 1
+  - url: https://api.github.com/orgs/Takeda-Pharma
+    status: 200
+    public_repos: 1
+  - url: https://api.github.com/orgs/TakedaPlasma
+    status: 200
+    public_repos: 0

@@ -1,0 +1,22 @@
+generated: '2026-09-13'
+method: searched
+source: >-
+  https://www.takeda.com/ ; https://www.takeda.com/what-we-do/suppliers/ ;
+  searched for a Takeda developer portal, API pricing or plans page, 2026-09-13
+plan_count: 0
+plans: []
+note: >-
+  Takeda publishes no API plans, tiers, quotas or developer pricing, because it publishes
+  no API. There is no developer portal, no "request API access" form and no partner API
+  programme to price. Takeda's commercial surfaces are pharmaceutical products and a
+  supplier-payments portal operated by a third party (takeda.apexportal.net, Apex Analytix),
+  neither of which is an API product. Recorded as an honest zero.
+evidence:
+- url: https://www.takeda.com/what-we-do/suppliers/
+  status: 200
+  detail: >-
+    Supplier Relations page. Covers procurement, onboarding and payment support; names no
+    API, SDK, developer programme or technical documentation.
+- url: https://developer.takeda.com/
+  status: 0
+  detail: Host does not resolve. No developer portal exists to carry plans.
